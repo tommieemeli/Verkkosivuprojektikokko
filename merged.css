@@ -1,0 +1,105 @@
+.fab {
+    padding: 20px;
+    font-size: 60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2%;
+    border-radius: 50%;
+}
+
+div.fab fa-instagram:hover {
+    background: grey;
+}
+
+ .img-circle {
+     border-radius: 50%;
+ }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+hr {
+    border-color:rgb(166, 156, 2);
+    border-radius: 12px;    
+}
+
+a {
+    color: white;
+    box-shadow: 2px;  
+}
+body {
+    background: rgb(0,0,0);
+}
+.background {
+    background: rgb(63, 63, 63);
+}
+.bigheader {
+    height: 350px;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    background: rgb(63, 63, 63);
+    border: none;
+    border-bottom: solid rgb(197,197, 197);
+    width: 100%;
+}
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: rgb(63, 63, 63);
+    text-align: right;
+    box-sizing: border-box;
+    color: rgb(197,197, 197);
+    font-size: 30px;
+    display: none;
+}
+ul li:hover{
+    background: rgb(166, 156, 2);
+}
+@media (max-width:768px)
+{
+    .toggle {
+        display: block;
+    }
+    ul {
+        width: 100%;
+        display: none;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+        
+    }
+    .active {
+      display: block;  
+    }
+    .navbar {
+        min-height: 0;
+    }
+}
+
+.smallbox {
+    background: rgb(63, 63, 63);
+    height: 500px;
+    border-radius: 1%;
+    color: rgb(197, 197, 197);
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 1%;
+}
+.padding {
+    padding-right: 5px;
+    padding-left: 5px;
+}
